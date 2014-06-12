@@ -84,8 +84,6 @@ p round_one.guess(10) == :correct
 p round_one.solved? == true
 
 
-
-
 # 5. Reflection 
 # # * What parts of your strategy worked? What problems did you face? * What questions did you have while coding? What resources did you find to help you 
 # answer them? * What concepts are you having trouble with, or did you just figure something out? If so, what? * Did you learn any new skills or tricks?
