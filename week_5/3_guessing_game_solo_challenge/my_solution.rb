@@ -66,7 +66,7 @@ class GuessingGame
   	end
   end
 
-  def solved
+  def solved?
     @solved
   end
 end
@@ -76,10 +76,12 @@ end
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 
-p GuessingGame.new(10).guess(5) == :low
-p GuessingGame.new(10).guess(15) == :high
-p GuessingGame.new(10).guess(10) == :correct
-p GuessingGame.new(10).solved == false
+round_one = GuessingGame.new(10)
+
+p round_one.guess(5) == :low
+p round_one.guess(15) == :high
+p round_one.guess(10) == :correct
+p round_one.solved? == true
 
 
 
